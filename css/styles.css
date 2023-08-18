@@ -1,0 +1,370 @@
+:root {
+  --brand-color: #404bf4;
+  --primary-white-color: #ffffff;
+  --body-color: #434455;
+  --clasic-background-color: #f4f4fd;
+  --footer-color: #2e2f42;
+  --button-color: #4d5ae5;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.title {
+  background-color: #2e2f42;
+  color: white;
+  padding: 188px 0;
+}
+.logo-name {
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
+}
+.logo-down-name {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.company-activity {
+  background-color: white;
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.team-workers {
+  background-color: #f4f4fd;
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.photo {
+  display: flex;
+  gap: 24px;
+}
+.valuables-list-descr {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.page-down {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+.logo-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.main-button {
+  background-color: #4d5ae5;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  padding: 16px 32px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  margin: 0 auto;
+}
+.link {
+  text-decoration: none;
+}
+.main-button:hover {
+  color: white;
+  background-color: #404bbf;
+}
+.main-button:focus {
+  background-color: #404bbf;
+}
+.other-buttons {
+  font-family: "Roboto", sans-serif;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+.other-buttons:hover {
+  color: white;
+  background-color: #404bbf;
+  border: 1px solid transparent;
+}
+.other-buttons:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+  border: 1px solid transparent;
+}
+.footer-descr {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  max-width: 264px;
+}
+.input-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+  padding: 24px 0 24px;
+  display: block;
+}
+.input-list:hover {
+  color: #404bbf;
+}
+.input-list:focus {
+  color: #404bbf;
+}
+.list {
+  list-style: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+.second-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.contains {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+address {
+  font-style: normal;
+}
+.wrapper {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 496px;
+  margin-bottom: 48px;
+  margin: 0 auto;
+}
+.valuables {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.valuables-list-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: #ffffff;
+  margin-bottom: 8px;
+}
+.second-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.contacts-list {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contacts-list:hover {
+  color: #404bbf;
+}
+.contacts-list:focus {
+  color: #404bbf;
+}
+.section-team {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+}
+.specialists {
+  background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.site-info {
+  display: flex;
+  align-items: center;
+}
+.logo-line {
+  display: flex;
+  align-items: center;
+  margin-right: 332px;
+}
+.menu {
+  display: flex;
+  gap: 40px;
+  justify-content: flex-start;
+}
+.menu-contact {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  flex-wrap: nowrap;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.top-line {
+  border-bottom: 1px solid #e7e9fc;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.company-strategy {
+  padding: 120px 0;
+}
+.list-item {
+  width: calc((100% - 72px) / 4);
+}
+.pictures {
+  padding-bottom: 120px;
+}
+.picture-company {
+  display: flex;
+  gap: 24px;
+}
+.pic-description {
+  width: calc((100% - 48px) / 3);
+}
+.profession {
+  padding: 32px 0;
+}
+.portfolio-class {
+  border-bottom: 1px solid #e7e9fc;
+}
+.portfolio-info {
+  display: flex;
+  align-items: center;
+}
+.adress-info {
+  display: flex;
+  gap: 40px;
+}
+.buttons {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.company-app {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.address-info {
+  display: flex;
+  gap: 40px;
+}
+.company-pic {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.img-decript {
+  width: calc((100% - 48px) / 3);
+}
+.email-info {
+  display: flex;
+  gap: 40px;
+}
