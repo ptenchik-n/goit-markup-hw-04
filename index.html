@@ -443,17 +443,19 @@
       </div>
     </footer>
     <!-- Modal window -->
-
-    <div class="modal-window">
-      <button class="modal-button" type="button" data-modal-close>
-        <svg class="modal-button-icon" width="8" height="8">
-          <use
-            href="./images/icons.svg/sprite1.svg#icon-close-black-18dp-2-1"
-          ></use>
-        </svg>
-      </button>
+    <button type="button" class="open-modal" data-modal-open>Open Modal</button>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+          <svg class="modal-icon" width="8" height="8">
+            <use
+              href="./images/icons.svg/close-black.svg#icon-close-black-18dp-2-1"
+            ></use>
+          </svg>
+        </button>
+      </div>
     </div>
 
-    <script src="./modal.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
