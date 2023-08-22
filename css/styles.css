@@ -682,3 +682,6 @@ img {
 .box:hover .overlay {
   transform: translateY(0);
 }
+.box:focus .overlay {
+  transform: translateY(0);
+}
