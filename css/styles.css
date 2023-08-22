@@ -237,6 +237,10 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.contains:hover,
+.contains:focus {
+  transform: translateY(0%);
+}
 address {
   font-style: normal;
 }
