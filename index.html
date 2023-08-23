@@ -437,6 +437,22 @@
             </li>
           </ul>
         </div>
+        <div class="footer-bottom">
+          <form class="footer-form" name="subscribe_form">
+            <input
+              class="footer-form-input"
+              name="subscribe_email"
+              type="email"
+              placeholder="E-mail"
+            />
+            <button class="button-form" type="submit">
+              Subscribe
+              <svg class="button-form-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-Frame-3"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- Modal window -->
@@ -448,6 +464,91 @@
             <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
           </svg>
         </button>
+
+        <strong class="modal-caption"
+          >Leave your contacts and we will call you back</strong
+        >
+        <form
+          class="modal-form"
+          name="feedback-form"
+          novalidate
+          autocomplete="on"
+        >
+          <label class="modal-form-label" for="user-name">Name</label>
+          <div class="modal-form-field">
+            <input
+              class="modal-form-input"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Ivan Ivanov"
+              required
+              minlength="3"
+            />
+            <svg class="modal-form-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+            </svg>
+          </div>
+          <label class="modal-form-label" for="user-phone">Phone</label>
+          <div class="modal-form-field">
+            <input
+              class="modal-form-input"
+              type="tel"
+              name="user-phone"
+              id="user-phone"
+              placeholder=""
+              minlength="12"
+              maxlength="12"
+            />
+            <svg class="modal-form-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+            </svg>
+          </div>
+          <label class="modal-form-label" for="user-email">Email</label>
+          <div class="modal-form-field">
+            <input
+              class="modal-form-input"
+              type="email"
+              name="user-email"
+              id="user-email"
+              placeholder="example@example.com"
+              required
+            />
+            <svg class="modal-form-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+            </svg>
+          </div>
+          <label class="modal-form-label" for="user-comment">Comments</label>
+          <textarea
+            class="modal-form-comment"
+            name="user-comment"
+            id="user-comment"
+            rows="5"
+            placeholder="Text input"
+            required
+            minlength="5"
+          ></textarea>
+          <label class="modal-form-agreement">
+            <input
+              class="checkbox"
+              type="checkbox"
+              name="user-agreement"
+              value="yes"
+            />
+            <span class="modal-form-desc"
+              >I accept the terms and conditions of the
+              <a
+                class="modal-form-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                >Privacy Policy</a
+              ></span
+            >
+          </label>
+
+          <button class="button-form modal-form-btn" type="submit">Send</button>
+        </form>
       </div>
     </div>
 
